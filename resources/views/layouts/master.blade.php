@@ -11,7 +11,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- App favicon -->
-    <title>FootGear</title>
+    <title>Dapur Anita</title>
+    <link rel="shortcut icon" href="/dapuranita/logo1.png">
     <!-- Favicon-->
     @yield('css')
 
@@ -29,10 +30,21 @@
 
     <!-- Top Bar Start -->
     <div class="topbar">
+        <!-- LOGO -->
+        <div class="brand">
+            <a href="index.html" class="logo">
+                <span>
+                    <img src="/dapuranita/logo1.png" alt="logo-small" height="55" width="55">
+                </span>
+                <span>
+
+                </span>
+            </a>
+        </div>
         <!--end logo-->
         <!-- Navbar -->
         <nav class="navbar-custom">
-            @include('admin.layout.navbar')
+            @include('layouts.navbar')
         </nav>
         <!-- end navbar-->
     </div>
@@ -105,6 +117,14 @@
 
     <!--Start Footer-->
     <!-- Footer Start -->
+
+    {{-- <footer class="footer text-center text-sm-start">
+        &copy;
+        <script>
+            document.write(new Date().getFullYear())
+        </script> Metrica <span class="text-muted d-none d-sm-inline-block float-end">Crafted with <i
+                class="mdi mdi-heart text-danger"></i> by Dapur Anita</span>
+    </footer> --}}
     <!-- end Footer -->
     <!--end footer-->
 

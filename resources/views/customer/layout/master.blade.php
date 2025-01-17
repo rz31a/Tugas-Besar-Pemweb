@@ -12,10 +12,7 @@
 
     <!-- App favicon -->
     <title>FootGear</title>
-    <!-- Favicon-->
-    @yield('css')
-
-
+   
 
     <!-- App css -->
     <link href="/metrica/dist/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -29,10 +26,11 @@
 
     <!-- Top Bar Start -->
     <div class="topbar">
+        <!-- LOGO -->
         <!--end logo-->
         <!-- Navbar -->
         <nav class="navbar-custom">
-            @include('admin.layout.navbar')
+            @include('customer.layout.navbar')
         </nav>
         <!-- end navbar-->
     </div>
@@ -105,6 +103,14 @@
 
     <!--Start Footer-->
     <!-- Footer Start -->
+
+    {{-- <footer class="footer text-center text-sm-start">
+        &copy;
+        <script>
+            document.write(new Date().getFullYear())
+        </script> Metrica <span class="text-muted d-none d-sm-inline-block float-end">Crafted with <i
+                class="mdi mdi-heart text-danger"></i> by Dapur Anita</span>
+    </footer> --}}
     <!-- end Footer -->
     <!--end footer-->
 
